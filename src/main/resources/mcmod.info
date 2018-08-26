@@ -1,13 +1,13 @@
 [
 {
-  "modid": "flokau.tm",
+  "modid": "tm",
   "name": "Test Mod",
   "description": "Just some simple tests to get into modding!",
   "version": "1.0",
-  "mcversion": "${1.12.2}",
+  "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["flokau aka Shadda"],
+  "authorList": ["flokau aka Shaddaaa"],
   "credits": "Loremaster's a great guy :D",
   "logoFile": "",
   "screenshots": [],
