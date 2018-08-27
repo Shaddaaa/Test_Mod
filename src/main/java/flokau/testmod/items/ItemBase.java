@@ -10,7 +10,6 @@ public class ItemBase extends Item implements IHasModel
 {
 	public ItemBase(String name) 
 	{
-		System.out.println("Registering everything");
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.MATERIALS);
