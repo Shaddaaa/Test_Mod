@@ -17,4 +17,4 @@ public class ModItems
 	//public static final Item OBSIDIAN_AXE = new ItemBase("obsidian_axe");
 	//public static final Item OBSIDIAN_SHOVEL = new ItemBase("obsidian_shovel");
 	//public static final Item OBSIDIAN_HOE = new ItemBase("obsidian_hoe");
-}
+}	

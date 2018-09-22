@@ -1,0 +1,30 @@
+{
+    "type": "forge:ore_shaped",
+    
+    "pattern":
+    [
+        "PPP",
+        "POP",
+        "PPP"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "type": "forge:ore_dict",
+            "ore": "plankWood"
+        },
+        
+        "O":
+        {
+            "item":"tm:obsidian_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:obsidian_plank",
+        "count": 8
+    }
+}
