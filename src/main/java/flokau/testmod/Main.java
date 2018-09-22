@@ -1,5 +1,6 @@
 package flokau.testmod;
 
+import flokau.testmod.init.ModRecipes;
 import flokau.testmod.proxy.CommonProxy;
 import flokau.testmod.util.Reference;
 
@@ -29,7 +30,7 @@ public class Main
 	@EventHandler
 	public static void init(FMLInitializationEvent event) 
 	{
-		
+		ModRecipes.init();
 	}
 	
 	@EventHandler

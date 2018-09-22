@@ -1,0 +1,30 @@
+{
+    "type": "forge:ore_shaped",
+    
+    "pattern":
+    [
+        " O ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        },
+        
+        "O":
+        {
+            "item":"tm:obsidian_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:obsidian_shovel",
+        "count": 1
+    }
+}
