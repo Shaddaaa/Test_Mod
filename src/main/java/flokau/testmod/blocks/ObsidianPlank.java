@@ -26,4 +26,9 @@ public class ObsidianPlank extends BlockBase{
 	public TileEntity createTileEntity(World world, IBlockState state) {
 		return new ObsidianPlankTileEntity(world);
 	}
+	
+	@Override
+	public boolean hasTileEntity(IBlockState state) {
+		return true;
+	}
 }

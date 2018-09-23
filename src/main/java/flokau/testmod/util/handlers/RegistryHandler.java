@@ -3,6 +3,7 @@ package flokau.testmod.util.handlers;
 import flokau.testmod.entities.tileentities.ObsidianPlankTileEntity;
 import flokau.testmod.init.ModBlocks;
 import flokau.testmod.init.ModItems;
+import flokau.testmod.init.ModTileEntities;
 import flokau.testmod.items.ItemBase;
 import flokau.testmod.util.IHasModel;
 import flokau.testmod.util.Reference;
@@ -35,7 +36,8 @@ public class RegistryHandler
 	}
 	
 	public static void registerTileEntities() {
-		GameRegistry.registerTileEntity(ObsidianPlankTileEntity.class, new ResourceLocation(Reference.MOD_ID, ObsidianPlankTileEntity.NAME));
+		ObsidianPlankTileEntity.register("obsidian_plank_tile_entity", ObsidianPlankTileEntity.class);
+		//GameRegistry.registerTileEntity(ObsidianPlankTileEntity.class, new ResourceLocation(Reference.MOD_ID, ObsidianPlankTileEntity.NAME));
 	}
 	
 	@SubscribeEvent
