@@ -25,7 +25,7 @@ import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
 
-public class ModItems 
+public class ModItems
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	

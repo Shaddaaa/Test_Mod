@@ -3,7 +3,7 @@ package flokau.testmod;
 import flokau.testmod.init.ModRecipes;
 import flokau.testmod.proxy.CommonProxy;
 import flokau.testmod.util.Reference;
-
+import flokau.testmod.util.handlers.RegistryHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
